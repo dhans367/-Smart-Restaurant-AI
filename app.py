@@ -115,6 +115,8 @@ html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
 div[data-testid="stVerticalBlock"] > div { gap: 0.5rem; }
 hr { border: none; border-top: 1px solid rgba(255,255,255,0.12); margin: 14px 0; }
 p, span, label, div { color: #f1f1f1; }
+div[data-testid="stSelectbox"] div[data-baseweb="select"] > div { color: #f1f1f1 !important; }
+div[data-baseweb="popover"] li, ul[data-baseweb="menu"] li { color: #f1f1f1 !important; }
 
 /* ---------------- SIDEBAR ---------------- */
 section[data-testid="stSidebar"] {
